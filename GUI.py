@@ -7,13 +7,13 @@
 # WARNING! All changes made in this file will be lost!
 
 
-from PyQt5 import QtCore, QtWidgets
+from PyQt5 import QtCore, QtGui, QtWidgets
 
 
 class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
         MainWindow.setObjectName("MainWindow")
-        MainWindow.resize(257, 323)
+        MainWindow.resize(314, 360)
         self.centralwidget = QtWidgets.QWidget(MainWindow)
         self.centralwidget.setObjectName("centralwidget")
         self.lineEdit = QtWidgets.QLineEdit(self.centralwidget)
@@ -26,26 +26,26 @@ class Ui_MainWindow(object):
         self.lineEdit_3.setGeometry(QtCore.QRect(70, 140, 113, 20))
         self.lineEdit_3.setObjectName("lineEdit_3")
         self.label = QtWidgets.QLabel(self.centralwidget)
-        self.label.setGeometry(QtCore.QRect(70, 20, 111, 16))
+        self.label.setGeometry(QtCore.QRect(70, 20, 211, 16))
         self.label.setObjectName("label")
         self.label_2 = QtWidgets.QLabel(self.centralwidget)
-        self.label_2.setGeometry(QtCore.QRect(70, 70, 131, 16))
+        self.label_2.setGeometry(QtCore.QRect(70, 70, 221, 16))
         self.label_2.setObjectName("label_2")
         self.label_3 = QtWidgets.QLabel(self.centralwidget)
-        self.label_3.setGeometry(QtCore.QRect(70, 120, 101, 16))
+        self.label_3.setGeometry(QtCore.QRect(70, 120, 211, 16))
         self.label_3.setObjectName("label_3")
         self.pushButton = QtWidgets.QPushButton(self.centralwidget)
-        self.pushButton.setGeometry(QtCore.QRect(80, 170, 75, 23))
+        self.pushButton.setGeometry(QtCore.QRect(70, 170, 111, 23))
         self.pushButton.setObjectName("pushButton")
         self.lineEdit_4 = QtWidgets.QLineEdit(self.centralwidget)
         self.lineEdit_4.setGeometry(QtCore.QRect(70, 220, 113, 20))
         self.lineEdit_4.setObjectName("lineEdit_4")
         self.label_4 = QtWidgets.QLabel(self.centralwidget)
-        self.label_4.setGeometry(QtCore.QRect(70, 200, 121, 16))
+        self.label_4.setGeometry(QtCore.QRect(70, 200, 211, 16))
         self.label_4.setObjectName("label_4")
         MainWindow.setCentralWidget(self.centralwidget)
         self.menubar = QtWidgets.QMenuBar(MainWindow)
-        self.menubar.setGeometry(QtCore.QRect(0, 0, 257, 23))
+        self.menubar.setGeometry(QtCore.QRect(0, 0, 314, 23))
         self.menubar.setObjectName("menubar")
         MainWindow.setMenuBar(self.menubar)
         self.statusbar = QtWidgets.QStatusBar(MainWindow)
